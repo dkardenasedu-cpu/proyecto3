@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Batalla Pokémon</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main>
+        <h1>Batalla Pokémon</h1>
+        <h2>Elige a tus luchadores</h2>
+
+        <div class="arena">
+
+            <section class="luchador">
+                <h3>Luchador 1</h3>
+
+                <label for="busqueda1">Buscar Pokémon</label>
+
+                <input
+                    type="text"
+                    id="busqueda1"
+                    placeholder="Ingresa el nombre de un Pokémon"
+                >
+
+                <div
+                    id="sugerencias1"
+                    class="sugerencias"
+                ></div>
+
+                <div id="pokemon1"></div>
+            </section>
+
+            <div class="versus">
+                VS
+            </div>
+
+            <section class="luchador">
+                <h3>Luchador 2</h3>
+
+                <label for="busqueda2">Buscar Pokémon</label>
+
+                <input
+                    type="text"
+                    id="busqueda2"
+                    placeholder="Ingresa el nombre de un Pokémon"
+                >
+
+                <div
+                    id="sugerencias2"
+                    class="sugerencias"
+                ></div>
+
+                <div id="pokemon2"></div>
+            </section>
+
+        </div>
+
+        <div id="inicioBatalla"></div>
+
+        <div id="mensajeBatalla"></div>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
